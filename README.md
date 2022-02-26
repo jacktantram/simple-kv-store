@@ -82,3 +82,18 @@ cd myarchive
 ```
 
 You should be able to see the folder populated with your submission. If not, repeat the process.
+
+
+# Usage
+In order to use the CLI Tool there is a pre-requisite of [Go](https://github.com/golang/go) being installed.
+Execute `make run` to run the program and from there you are able to send in commands. 
+# Assumptions
+* Keys
+  * They are case-sensitive. Meaning that you can store a key of anApple and ANAPPLE. 
+  * Keys and values must not be blank, i.e just be whitespace
+
+# Improvements
+* Provide further testcases for the integration/CLI part. Due to time I focussed on writing
+unit tests on the store and then covering the base scenario from the README. I chose to use a 
+`testdata` folder to allow a text file for `stdin` to be passed in and assert the `stdout` response.
+* Depending on how this tool could be used Docker could be introduced to package the application
