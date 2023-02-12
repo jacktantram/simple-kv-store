@@ -1,0 +1,17 @@
+wRiTe a hello
+rEaD a
+StART
+REAd a
+WRITE a hello-again
+READ a
+START
+delete a
+read a
+commit
+READ a
+WRITE a once-more
+rEAD a
+once-more
+aborT
+READ a
+QUIT
